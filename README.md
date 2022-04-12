@@ -1,2 +1,10 @@
-# EE6470_hw3_HLS_Gaussian
-EE6470 Electronic System Level Design and Synthesis HW3
+# Sobel Edge Detector
+
+## SystemC Simulation
+
+- make run
+
+## Stratus
+
+- cd stratus
+- make sim_all

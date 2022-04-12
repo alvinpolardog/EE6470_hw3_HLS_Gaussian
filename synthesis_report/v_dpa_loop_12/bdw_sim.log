@@ -1,0 +1,74 @@
+Operating system Centos 6,
+ GCC 7.3.0,
+ and Cadence NC/IUS 15.20
+are a supported combination.
+irun(64): 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+file: bdw_work/sims/top_V_DPA.v
+	module worklib.top:v
+		errors: 0, warnings: 0
+file: bdw_work/wrappers/SobelFilter_cosim.v
+	module worklib.SobelFilter_cosim:v
+		errors: 0, warnings: 0
+file: bdw_work/modules/SobelFilter/DPA/SobelFilter_rtl.v
+	module worklib.SobelFilter:v
+		errors: 0, warnings: 0
+file: bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Mod_64Ux2U_2U_4.v
+	module worklib.SobelFilter_Mod_64Ux2U_2U_4:v
+		errors: 0, warnings: 0
+file: bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_ROM_9X32_mask.v
+	module worklib.SobelFilter_ROM_9X32_mask:v
+		errors: 0, warnings: 0
+ncvlog: *W,SPDUSD: Include directory bdw_work/wrappers given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+*** Registering Hub PLI1.0 Interface***
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		top
+	Building instance overlay tables: .............
+            $readmemh("bdw_work/modules/SobelFilter/DPA/SobelFilter_ROM_9X32_mask_0.memh", mask);
+                                                                                              |
+ncelab: *W,MEMODR (./bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_ROM_9X32_mask.v,17|94): $readmem default memory order incompatible with IEEE1364.
+....... Done
+	Generating native compiled code:
+		worklib.SobelFilter:v <0x1148a324>
+			streams: 2826, words: 1754805
+		worklib.SobelFilter_Mod_64Ux2U_2U_4:v <0x6b25a36b>
+			streams: 136, words: 33987
+		worklib.SobelFilter_ROM_9X32_mask:v <0x22dac905>
+			streams:   3, words:   924
+		worklib.top:v <0x25804371>
+			streams: 114, words: 98503
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  6       5
+		Registers:             2584    2549
+		Scalar wires:          1055       -
+		Vectored wires:          22       -
+		Always blocks:         2468    2433
+		Initial blocks:           8       8
+		Cont. assignments:      170     557
+		Pseudo assignments:       6       6
+		Simulation timescale:   1ps
+	Writing initial simulation snapshot: worklib.top:v
+Loading snapshot worklib.top:v .................... Done
+*** Registering Hub PLI1.0 Interface***
+ncsim> source /usr/cad/cadence/INCISIV/INCISIVE_15.20.084/tools/inca/files/ncsimrc
+ncsim> 
+ncsim> run
+
+        SystemC 2.3.1-Accellera --- Feb 14 2019 12:08:38
+        Copyright (c) 1996-2014 by all Contributors,
+        ALL RIGHTS RESERVED
+NOTE: Cadence Design Systems Hub Simulation Platform : version 19.12-s100
+
+Info: (I804) /IEEE_Std_1666/deprecated: deprecated constructor: sc_time(uint64,bool)
+
+Info: /OSCI/SystemC: Simulation stopped by user.
+Simulation stopped via $stop(1) at time 21515835100 PS + 0
+./bdw_work/sims/top_V_DPA.v:63 		#100 $stop;
+ncsim> quit
+Total run time = 21515770 ns

@@ -1,0 +1,537 @@
+Operating system Centos 6,
+ GCC 7.3.0,
+ and Cadence NC/IUS 15.20
+are a supported combination.
+irun(64): 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+Loading snapshot worklib.top:v .................... Done
+*** Registering Hub PLI1.0 Interface***
+ncsim> source /usr/cad/cadence/INCISIV/INCISIVE_15.20.084/tools/inca/files/ncsimrc
+ncsim> 
+ncsim> run
+
+        SystemC 2.3.1-Accellera --- Feb 14 2019 12:08:38
+        Copyright (c) 1996-2014 by all Contributors,
+        ALL RIGHTS RESERVED
+NOTE: Cadence Design Systems Hub Simulation Platform : version 19.12-s100
+
+Info: (I804) /IEEE_Std_1666/deprecated: deprecated constructor: sc_time(uint64,bool)
+writing to row: 0
+sending row: 4294967295
+sending row: 0
+sending row: 1
+sending row: 2
+writing to row: 1
+sending row: 3
+writing to row: 2
+sending row: 4
+writing to row: 3
+sending row: 5
+writing to row: 4
+sending row: 6
+writing to row: 5
+sending row: 7
+writing to row: 6
+sending row: 8
+writing to row: 7
+sending row: 9
+writing to row: 8
+sending row: 10
+writing to row: 9
+sending row: 11
+writing to row: 10
+sending row: 12
+writing to row: 11
+sending row: 13
+writing to row: 12
+sending row: 14
+writing to row: 13
+sending row: 15
+writing to row: 14
+sending row: 16
+writing to row: 15
+sending row: 17
+writing to row: 16
+sending row: 18
+writing to row: 17
+sending row: 19
+writing to row: 18
+sending row: 20
+writing to row: 19
+sending row: 21
+writing to row: 20
+sending row: 22
+writing to row: 21
+sending row: 23
+writing to row: 22
+sending row: 24
+writing to row: 23
+sending row: 25
+writing to row: 24
+sending row: 26
+writing to row: 25
+sending row: 27
+writing to row: 26
+sending row: 28
+writing to row: 27
+sending row: 29
+writing to row: 28
+sending row: 30
+writing to row: 29
+sending row: 31
+writing to row: 30
+sending row: 32
+writing to row: 31
+sending row: 33
+writing to row: 32
+sending row: 34
+writing to row: 33
+sending row: 35
+writing to row: 34
+sending row: 36
+writing to row: 35
+sending row: 37
+writing to row: 36
+sending row: 38
+writing to row: 37
+sending row: 39
+writing to row: 38
+sending row: 40
+writing to row: 39
+sending row: 41
+writing to row: 40
+sending row: 42
+writing to row: 41
+sending row: 43
+writing to row: 42
+sending row: 44
+writing to row: 43
+sending row: 45
+writing to row: 44
+sending row: 46
+writing to row: 45
+sending row: 47
+writing to row: 46
+sending row: 48
+writing to row: 47
+sending row: 49
+writing to row: 48
+sending row: 50
+writing to row: 49
+sending row: 51
+writing to row: 50
+sending row: 52
+writing to row: 51
+sending row: 53
+writing to row: 52
+sending row: 54
+writing to row: 53
+sending row: 55
+writing to row: 54
+sending row: 56
+writing to row: 55
+sending row: 57
+writing to row: 56
+sending row: 58
+writing to row: 57
+sending row: 59
+writing to row: 58
+sending row: 60
+writing to row: 59
+sending row: 61
+writing to row: 60
+sending row: 62
+writing to row: 61
+sending row: 63
+writing to row: 62
+sending row: 64
+writing to row: 63
+sending row: 65
+writing to row: 64
+sending row: 66
+writing to row: 65
+sending row: 67
+writing to row: 66
+sending row: 68
+writing to row: 67
+sending row: 69
+writing to row: 68
+sending row: 70
+writing to row: 69
+sending row: 71
+writing to row: 70
+sending row: 72
+writing to row: 71
+sending row: 73
+writing to row: 72
+sending row: 74
+writing to row: 73
+sending row: 75
+writing to row: 74
+sending row: 76
+writing to row: 75
+sending row: 77
+writing to row: 76
+sending row: 78
+writing to row: 77
+sending row: 79
+writing to row: 78
+sending row: 80
+writing to row: 79
+sending row: 81
+writing to row: 80
+sending row: 82
+writing to row: 81
+sending row: 83
+writing to row: 82
+sending row: 84
+writing to row: 83
+sending row: 85
+writing to row: 84
+sending row: 86
+writing to row: 85
+sending row: 87
+writing to row: 86
+sending row: 88
+writing to row: 87
+sending row: 89
+writing to row: 88
+sending row: 90
+writing to row: 89
+sending row: 91
+writing to row: 90
+sending row: 92
+writing to row: 91
+sending row: 93
+writing to row: 92
+sending row: 94
+writing to row: 93
+sending row: 95
+writing to row: 94
+sending row: 96
+writing to row: 95
+sending row: 97
+writing to row: 96
+sending row: 98
+writing to row: 97
+sending row: 99
+writing to row: 98
+sending row: 100
+writing to row: 99
+sending row: 101
+writing to row: 100
+sending row: 102
+writing to row: 101
+sending row: 103
+writing to row: 102
+sending row: 104
+writing to row: 103
+sending row: 105
+writing to row: 104
+sending row: 106
+writing to row: 105
+sending row: 107
+writing to row: 106
+sending row: 108
+writing to row: 107
+sending row: 109
+writing to row: 108
+sending row: 110
+writing to row: 109
+sending row: 111
+writing to row: 110
+sending row: 112
+writing to row: 111
+sending row: 113
+writing to row: 112
+sending row: 114
+writing to row: 113
+sending row: 115
+writing to row: 114
+sending row: 116
+writing to row: 115
+sending row: 117
+writing to row: 116
+sending row: 118
+writing to row: 117
+sending row: 119
+writing to row: 118
+sending row: 120
+writing to row: 119
+sending row: 121
+writing to row: 120
+sending row: 122
+writing to row: 121
+sending row: 123
+writing to row: 122
+sending row: 124
+writing to row: 123
+sending row: 125
+writing to row: 124
+sending row: 126
+writing to row: 125
+sending row: 127
+writing to row: 126
+sending row: 128
+writing to row: 127
+sending row: 129
+writing to row: 128
+sending row: 130
+writing to row: 129
+sending row: 131
+writing to row: 130
+sending row: 132
+writing to row: 131
+sending row: 133
+writing to row: 132
+sending row: 134
+writing to row: 133
+sending row: 135
+writing to row: 134
+sending row: 136
+writing to row: 135
+sending row: 137
+writing to row: 136
+sending row: 138
+writing to row: 137
+sending row: 139
+writing to row: 138
+sending row: 140
+writing to row: 139
+sending row: 141
+writing to row: 140
+sending row: 142
+writing to row: 141
+sending row: 143
+writing to row: 142
+sending row: 144
+writing to row: 143
+sending row: 145
+writing to row: 144
+sending row: 146
+writing to row: 145
+sending row: 147
+writing to row: 146
+sending row: 148
+writing to row: 147
+sending row: 149
+writing to row: 148
+sending row: 150
+writing to row: 149
+sending row: 151
+writing to row: 150
+sending row: 152
+writing to row: 151
+sending row: 153
+writing to row: 152
+sending row: 154
+writing to row: 153
+sending row: 155
+writing to row: 154
+sending row: 156
+writing to row: 155
+sending row: 157
+writing to row: 156
+sending row: 158
+writing to row: 157
+sending row: 159
+writing to row: 158
+sending row: 160
+writing to row: 159
+sending row: 161
+writing to row: 160
+sending row: 162
+writing to row: 161
+sending row: 163
+writing to row: 162
+sending row: 164
+writing to row: 163
+sending row: 165
+writing to row: 164
+sending row: 166
+writing to row: 165
+sending row: 167
+writing to row: 166
+sending row: 168
+writing to row: 167
+sending row: 169
+writing to row: 168
+sending row: 170
+writing to row: 169
+sending row: 171
+writing to row: 170
+sending row: 172
+writing to row: 171
+sending row: 173
+writing to row: 172
+sending row: 174
+writing to row: 173
+sending row: 175
+writing to row: 174
+sending row: 176
+writing to row: 175
+sending row: 177
+writing to row: 176
+sending row: 178
+writing to row: 177
+sending row: 179
+writing to row: 178
+sending row: 180
+writing to row: 179
+sending row: 181
+writing to row: 180
+sending row: 182
+writing to row: 181
+sending row: 183
+writing to row: 182
+sending row: 184
+writing to row: 183
+sending row: 185
+writing to row: 184
+sending row: 186
+writing to row: 185
+sending row: 187
+writing to row: 186
+sending row: 188
+writing to row: 187
+sending row: 189
+writing to row: 188
+sending row: 190
+writing to row: 189
+sending row: 191
+writing to row: 190
+sending row: 192
+writing to row: 191
+sending row: 193
+writing to row: 192
+sending row: 194
+writing to row: 193
+sending row: 195
+writing to row: 194
+sending row: 196
+writing to row: 195
+sending row: 197
+writing to row: 196
+sending row: 198
+writing to row: 197
+sending row: 199
+writing to row: 198
+sending row: 200
+writing to row: 199
+sending row: 201
+writing to row: 200
+sending row: 202
+writing to row: 201
+sending row: 203
+writing to row: 202
+sending row: 204
+writing to row: 203
+sending row: 205
+writing to row: 204
+sending row: 206
+writing to row: 205
+sending row: 207
+writing to row: 206
+sending row: 208
+writing to row: 207
+sending row: 209
+writing to row: 208
+sending row: 210
+writing to row: 209
+sending row: 211
+writing to row: 210
+sending row: 212
+writing to row: 211
+sending row: 213
+writing to row: 212
+sending row: 214
+writing to row: 213
+sending row: 215
+writing to row: 214
+sending row: 216
+writing to row: 215
+sending row: 217
+writing to row: 216
+sending row: 218
+writing to row: 217
+sending row: 219
+writing to row: 218
+sending row: 220
+writing to row: 219
+sending row: 221
+writing to row: 220
+sending row: 222
+writing to row: 221
+sending row: 223
+writing to row: 222
+sending row: 224
+writing to row: 223
+sending row: 225
+writing to row: 224
+sending row: 226
+writing to row: 225
+sending row: 227
+writing to row: 226
+sending row: 228
+writing to row: 227
+sending row: 229
+writing to row: 228
+sending row: 230
+writing to row: 229
+sending row: 231
+writing to row: 230
+sending row: 232
+writing to row: 231
+sending row: 233
+writing to row: 232
+sending row: 234
+writing to row: 233
+sending row: 235
+writing to row: 234
+sending row: 236
+writing to row: 235
+sending row: 237
+writing to row: 236
+sending row: 238
+writing to row: 237
+sending row: 239
+writing to row: 238
+sending row: 240
+writing to row: 239
+sending row: 241
+writing to row: 240
+sending row: 242
+writing to row: 241
+sending row: 243
+writing to row: 242
+sending row: 244
+writing to row: 243
+sending row: 245
+writing to row: 244
+sending row: 246
+writing to row: 245
+sending row: 247
+writing to row: 246
+sending row: 248
+writing to row: 247
+sending row: 249
+writing to row: 248
+sending row: 250
+writing to row: 249
+sending row: 251
+writing to row: 250
+sending row: 252
+writing to row: 251
+sending row: 253
+writing to row: 252
+sending row: 254
+writing to row: 253
+sending row: 255
+writing to row: 254
+sending row: 256
+writing to row: 255
+
+Info: /OSCI/SystemC: Simulation stopped by user.
+Simulation stopped via $stop(1) at time 26235015100 PS + 0
+./bdw_work/sims/top_V_BASIC.v:63 		#100 $stop;
+ncsim> quit
+Total run time = 26234950 ns
